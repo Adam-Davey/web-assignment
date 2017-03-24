@@ -7,7 +7,7 @@ header {
 	margin-right: 0px;
 	margin-left: 0px;
 	margin-bottom: 0px;
-	background-color: #7FD0E5;
+	background-color: #95F0FC;
 	color: #00531B;
 	text-align: center;
 	font-weight: bolder;
@@ -113,22 +113,26 @@ body {
 	margin-bottom: 0px;
 	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
 	text-align: left;
+	font-style: normal;
+	font-weight: bold;
 }
 body nav {
 	background-color: #FFFFFF;
 	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
 	text-align: justify;
-	border-top-right-radius: 100px;
-	border-bottom-right-radius: 100px;
+	border-top-right-radius: 0px;
+	border-bottom-right-radius: 50px;
 	margin-right: 40px;
 	margin-left: 0px;
-	margin-bottom: 80px;
+	margin-bottom: 60px;
 	margin-top: 0px;
-	padding-right: 0px;
-	padding-left: 0px;
-	padding-top: 0px;
-	padding-bottom: 0px;
+	padding-right: 5px;
+	padding-left: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
 	float: left;
+	text-decoration: underline;
+	text-indent: 0px;
 }
 h1 {
 	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -151,5 +155,27 @@ a:hover { color: #FF9900; }
 a:active {}
 body h1 {
 	color: #00531B;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+}
+nav2 {
+	text-align: right;
+
+}
+body h2 {
+	color: #FF5BEE;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	background-color: #2806D3;
+	margin-top: 0px;
+	padding-left: 0px;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	clear: none;
+	text-align: left;
+	border-radius: 0px 40px 40px 0px;
+	float: none;
+	margin-bottom: 50px;
+}
+a {
+	color: #FF5BEE;
 	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
 }
