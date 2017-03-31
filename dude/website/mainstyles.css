@@ -9,9 +9,8 @@ header {
 	margin-bottom: 0px;
 	background-color: #95F0FC;
 	color: #00531B;
-	text-align: center;
 	font-weight: bolder;
-	font-size: xx-large;
+	font-size: 50px;
 	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
 	padding-top: 20px;
 	padding-right: 20px;
@@ -19,6 +18,7 @@ header {
 	padding-bottom: 0px;
 	border-radius: 0px;
 	text-decoration: underline;
+	text-align: center;
 }
 body footer {
 }
@@ -119,20 +119,20 @@ body {
 body nav {
 	background-color: #FFFFFF;
 	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
-	text-align: justify;
+	text-align: left;
 	border-top-right-radius: 0px;
 	border-bottom-right-radius: 50px;
-	margin-right: 40px;
+	margin-right: 0px;
 	margin-left: 0px;
-	margin-bottom: 60px;
+	margin-bottom: 0px;
 	margin-top: 0px;
-	padding-right: 5px;
-	padding-left: 5px;
-	padding-top: 5px;
-	padding-bottom: 5px;
-	float: left;
+	padding-right: 0px;
+	padding-left: 0px;
+	padding-top: 0px;
+	padding-bottom: 0px;
 	text-decoration: underline;
 	text-indent: 0px;
+	float: left;
 }
 h1 {
 	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -159,6 +159,7 @@ body h1 {
 }
 nav2 {
 	text-align: right;
+	margin-left: 0px;
 
 }
 body h2 {
@@ -170,12 +171,19 @@ body h2 {
 	padding-top: 40px;
 	padding-bottom: 40px;
 	clear: none;
-	text-align: left;
+	text-align: center;
 	border-radius: 0px 40px 40px 0px;
 	float: none;
 	margin-bottom: 50px;
+	margin-left: 0px;
+	margin-right: 130px;
 }
 a {
 	color: #FF5BEE;
 	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+}
+#container {
+	margin-top: 0px;
+	margin-left: 200px;
+	margin-right: 200px;
 }
